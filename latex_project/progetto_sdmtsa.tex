@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[a4paper, left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
+
+\usepackage[italian]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage{subcaption}
+\usepackage[parfill]{parskip}
+\usepackage{titlesec}
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+
+
+\begin{document}
+\input{front}
+\input{chapters/1_introduzione}
+\input{chapters/2_dataset}
+\input{chapters/3_procedimento}
+\input{chapters/4_conclusioni}
+\end{document}
